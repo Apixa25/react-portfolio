@@ -1,23 +1,45 @@
-// Bringing in the required import from 'react-router-dom'
-// At the top of this file, we are bringing in a single dependency from react-router-dom.
-// 🔑 This component functions as a sort of placeholder for whichever view should be shown. 
-// That means it could be when the path matches "/", or it could be when the path matches "/About", 
-// or it could be when the path is unhandled, like "/bananas".
-
-
-import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
+import React, { useState } from "react";
+import Header from "../src/components/Header";
+import About from "../src/components/About";
+import Contact from "../src/components/Contact";
+import Portfolio from "../src/components/Portfolio";
+import Resume from "../src/components/Resume";
+import Footer from "../src/components/Footer";
+import { Helmet } from "react-helmet";
+import "./App.css";
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
+  const [currentTab, handleTabChange] = useState("about");
+
+  // This method is checking to see what the value of `currentTab` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderTab = () => {
+    if (currentTab === "About") {
+      return <About />;
+    }
+    if (currentTab === "Contact") {
+      return <Contact />;
+    }
+    if (currentTab === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentTab === "Resume") {
+      return <Resume />;
+    }
+    return <About />;
+  };
+
   return (
     <>
-      <Nav />
-      <main className="mx-3">
-      {/*https://reactrouter.com/en/main/components/outlet*/}
-      {/*An <Outlet> should be used in parent route elements to render their child route elements. This allows nested UI to show up when child routes are rendered. If the parent route matched exactly, it will render a child index route or nothing if there is no index route.*/}
-        <Outlet />
-      </main>
+      <Helmet>
+        <title>Steven Sills Portfolio | {currentTab} </title>
+      </Helmet>
+      ;
+      <Header
+        currentTab={currentTab}
+        handleTabChange={handleTabChange}
+      ></Header>
+      <main>{renderTab()}</main>
+      <Footer></Footer>
     </>
   );
 }
