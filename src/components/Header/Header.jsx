@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Nav";
+import Nav from "../Nav/Navbar";
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
@@ -9,7 +9,7 @@ function Header(props) {
       <section>
         <header className="flex-row px-1">
           <div>
-            <h1>Lindsey Martin's Portfolio</h1>
+            <h1>Steven Sills II Portfolio</h1>
           </div>
           <div>
             <Nav

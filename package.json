@@ -2,7 +2,7 @@
   "name": "steves-react-portfolio",
   "version": "1.0.0",
   "description": "personal coding work portfolio",
-  "main": "index.js",
+  "main": "main.jsx",
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -23,6 +23,7 @@
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.11.1",
     "web-vitals": "^3.5.0"

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "../src/components/Header";
+import Header from "../src/components/Header/Header";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Portfolio from "../src/components/Portfolio";
-import Resume from "../src/components/Resume";
-import Footer from "../src/components/Footer";
+import Portfolio from "../src/components/Portfolio/Portfolio-projects";
+import Resume from "../src/components/Resume/Resume";
+import Footer from "../src/components/Footer/Footer";
 import { Helmet } from "react-helmet";
 import "./App.css";
 
