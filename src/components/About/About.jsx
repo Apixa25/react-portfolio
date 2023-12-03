@@ -11,7 +11,7 @@ function About() {
       <div className="flex-row">
         <div class="intro-info">
           <div class="intro-img">
-            <img src={profileImage} style={{ width: "100%", padding: 50 }} alt="profile" /> 
+            <img src={profileImage} style={{ width: "100%", padding: 30, boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)" }} alt="profile" /> 
 
           </div>
           <p>

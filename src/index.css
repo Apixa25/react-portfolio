@@ -534,7 +534,7 @@
   
   /* start styles to <footer> */
   footer {
-    background: #D5F2EA;
+    background: #c5c5c5;
     font-weight: bold;
     width: 100%;
     height: 100px;
@@ -549,7 +549,7 @@
   
   footer h2 {
   
-    color: #75BFB2;
+    color: #0E5259;
     font-size: 15px;
     margin: 0;
   }
@@ -580,9 +580,10 @@
   .logo {
     cursor: pointer;
     list-style: none;
-    font-size: 40px;
+    font-size: 55px;
     color: #0E5259;
     display: inline-block;
+    padding: 10px;
   }
   
   .logo:hover {
