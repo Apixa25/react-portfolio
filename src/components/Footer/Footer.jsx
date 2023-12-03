@@ -6,20 +6,20 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-      <h2>Made by Lindsey Martin©</h2>
+      <h2>Made by Steven Sills II©</h2>
       <p>
         <ul>
-          <a href="https://github.com/Lemming97">
+          <a href="https://github.com/Apixa25">
             <li className="logo">
               <VscGithubAlt />
             </li>
           </a>
-          <a href="https://www.linkedin.com/in/lindsey-m-2219abb0/">
+          <a href="https://www.linkedin.com/in/steven-sills-ii-90781b53/">
             <li className="logo">
               <AiOutlineLinkedin />
             </li>
           </a>
-          <a href="https://www.instagram.com/lem_photos/">
+          <a href="https://www.facebook.com/profile.php?id=100080509112991">
             <li className="logo">
               <FaInstagram />
             </li>
