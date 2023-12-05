@@ -28,11 +28,10 @@ function Header(props) {
             alt="cover"
           /> */}
 
-          <h2>Welcome</h2>
+          <h2>Welcome!</h2>
           <p>
-            Welcome to Steven Sills II portfolio page built with React! Here,
-            you can find information about me, my projects, and how to contact
-            me!
+            Thank you for taking the time to look at my portfolio page built with React! Here,
+            you will find information about me and my projects. 
           </p>
         </div>
       </section>
