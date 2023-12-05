@@ -17,36 +17,10 @@
 ## Description 📝
 A personal portfolio showcasing my coding work built in React.  I built this portfolio to introduce myself to prospective employers, future colleagues, and maybe even to make a friend or two!
 
-[Go to the deployed application on Heroku](https://text-editor-pwa916-e253ae17fce3.herokuapp.com/) 👀
-
-## Table of Contents 📑
-
-* [Usage](#usage)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-* [License](#license)
-
-## Usage ⏯️
-  To use the application from the command line (after installing dependencies):
-1. Open the root directory of the repository in your terminal or bash.
-2. Bundle the front-end code by entering ```npm run build``` in the command line.
-3. Start the server by entering ```npm run start``` in the command line.
-4. Go to the port on your local host.
-5. Click the "Install" button.
+[Go to the deployed site on Netlify](https://main--velvety-cat-348b30.netlify.app/) 👀
 
 
-![Site Langing Page](./client/src/images/text-editor-pwa.gif)
-
-## Learning Points 🧑‍🏫
-
-  
-To create this application, I used:
-
-1. IndexedDB (via the idb package) as a database.  idb is a lightweight wrapper around the IndexDB API.  
-2. Webpack to bundle front-end code
-3. Workbox to create a service worker that caches static assets
-And, Heroku.
-
+![Site Langing Page](./src/assets/profile-images/react-portfolio.gif)
 
 
 ## Author Info 🙋‍♂️
