@@ -15,7 +15,12 @@ function About() {
 
           </div>
           <p>
-            Greetings! Beyond my professional commitments, I am an ardent advocate of an active lifestyle. I take immense pleasure in embarking on leisurely strolls accompanied by my beloved canines. Additionally, I relish partaking in brief hiking expeditions with my cherished friends. Engaging in physical exercise brings me great joy, and I diligently dedicate time every day to nurture my well-being. My exercise regimen encompasses a diverse array of activities, including pilates, weight training, yoga, and invigorating high-intensity interval training (HIIT) sessions. By embracing an active and balanced lifestyle, I strive to make the most of my time outside of work, enjoying the wonders of both nature and the thriving communities that surround me.
+          What would I like you to know about me?  If you are looking at this thinking you might want to hire me then I would like you to know how hard of a worker I am. And that I bring to the table a very diverse set of skills because of my age and broad world experience.  The greatest of which is my ability to work with people. I have an amazing contact book. Anything anyone ever did that was great they did not do alone. If you get to know me you will hear me often say “You cannot win the Super Bowl by yourself.  It takes a whole team of great players.” That said I personally have done my best work getting to stand on the shoulders of giants.  If you hire me you are bringing far more than just me onto the team. Your bringing me and a team of wonderful people I have to draw upon.
+
+If you want to know some personal stuff about me, well… I love nature. When I am not working I am hiking and biking.  I am an explorer at heart.  I very rarely take the same trail twice. Even on the old tried and true path Ill go off trail and look for areas Ive never seen before.  Theres nothing better for clearing the mind to formulate new ideas than heading out in nature.  I have been blessed to get to live in some incredibly beautiful places! 
+
+I love friendship! So if for no other reason than to make a new friend please feel free to contact me!
+
           
           </p>
 
